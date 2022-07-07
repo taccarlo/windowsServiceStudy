@@ -39,7 +39,7 @@
             // 
             // serviceInstaller1
             // 
-            this.serviceInstaller1.ServiceName = "Digisei Windows Service";
+            this.serviceInstaller1.ServiceName = "Z project";
             // 
             // ProjectInstaller
             // 
