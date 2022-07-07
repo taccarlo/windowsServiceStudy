@@ -39,19 +39,21 @@ namespace digiseiWindowsService
         {
             OnStart(null);
         }
-        public void OnTimer(object sender, ElapsedEventArgs args)
+        private async void OnTimer(object sender, ElapsedEventArgs args)
         {
 
-            //here stamp a information basing on http to bluemilk
-            // TODO: Insert monitoring activities here.
-            eventLog1.WriteEntry("Monitoring the System", EventLogEntryType.Information, eventId++);
+            //here stamp a information basing on http
+            HTTPEmitter emitter = new HTTPEmitter();
+            string res = await emitter.GetTodoItems();
+            eventLog1.WriteEntry(res, EventLogEntryType.Information, eventId++);
+
         }
 
         private void StartATimer()
         {
             // Set up a timer that triggers every minute.
             Timer timer = new Timer();
-            timer.Interval = 60000; // 60 seconds
+            timer.Interval = 30000; // 30 seconds
             timer.Elapsed += new ElapsedEventHandler(this.OnTimer);
             timer.Start();
         }
