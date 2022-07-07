@@ -1,0 +1,10 @@
+C:\Users\Taccarlo\Documents\Lavoro\Studio personale\windowsServiceStudy\windowsServiceStudy\digiseiWindowsService\digiseiWindowsService\bin\Release\digiseiWindowsService.exe.config
+C:\Users\Taccarlo\Documents\Lavoro\Studio personale\windowsServiceStudy\windowsServiceStudy\digiseiWindowsService\digiseiWindowsService\bin\Release\digiseiWindowsService.exe
+C:\Users\Taccarlo\Documents\Lavoro\Studio personale\windowsServiceStudy\windowsServiceStudy\digiseiWindowsService\digiseiWindowsService\bin\Release\digiseiWindowsService.pdb
+C:\Users\Taccarlo\Documents\Lavoro\Studio personale\windowsServiceStudy\windowsServiceStudy\digiseiWindowsService\digiseiWindowsService\obj\Release\digiseiWindowsService.csproj.AssemblyReference.cache
+C:\Users\Taccarlo\Documents\Lavoro\Studio personale\windowsServiceStudy\windowsServiceStudy\digiseiWindowsService\digiseiWindowsService\obj\Release\digiseiWindowsService.csproj.SuggestedBindingRedirects.cache
+C:\Users\Taccarlo\Documents\Lavoro\Studio personale\windowsServiceStudy\windowsServiceStudy\digiseiWindowsService\digiseiWindowsService\obj\Release\digiseiWindowsService.csproj.CoreCompileInputs.cache
+C:\Users\Taccarlo\Documents\Lavoro\Studio personale\windowsServiceStudy\windowsServiceStudy\digiseiWindowsService\digiseiWindowsService\obj\Release\digiseiWindowsService.exe
+C:\Users\Taccarlo\Documents\Lavoro\Studio personale\windowsServiceStudy\windowsServiceStudy\digiseiWindowsService\digiseiWindowsService\obj\Release\digiseiWindowsService.pdb
+C:\Users\Taccarlo\Documents\Lavoro\Studio personale\windowsServiceStudy\windowsServiceStudy\digiseiWindowsService\digiseiWindowsService\obj\Release\digiseiWindowsService.ProjectInstaller.resources
+C:\Users\Taccarlo\Documents\Lavoro\Studio personale\windowsServiceStudy\windowsServiceStudy\digiseiWindowsService\digiseiWindowsService\obj\Release\digiseiWindowsService.csproj.GenerateResource.cache

@@ -27,6 +27,7 @@ namespace digiseiWindowsService
 
         protected override void OnStop()
         {
+            System.IO.File.Create(AppDomain.CurrentDomain.BaseDirectory + "OnStop.txt");
         }
     }
 }
