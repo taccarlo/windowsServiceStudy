@@ -9,7 +9,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Timers;
 using System.Diagnostics;
-
+using digiseiWindowsService.dll;
+using System.IO;
 namespace digiseiWindowsService
 {
     public partial class Service1 : ServiceBase
@@ -59,7 +60,17 @@ namespace digiseiWindowsService
         }
         protected override void OnStart(string[] args)
         {
-            System.IO.File.Create(AppDomain.CurrentDomain.BaseDirectory + "OnStart.txt");
+            DLLManager dllManager = new DLLManager();
+           
+            string p=AppDomain.CurrentDomain.BaseDirectory + "OnStart.txt";
+
+            using (StreamWriter sw = File.CreateText(p))
+            {
+                sw.WriteLine("Ho letto dalla dll: " + dllManager.DLLFunction().ToString());
+
+            }
+
+
             StartATimer();
             eventLog1.WriteEntry("In OnStart.");
         }
@@ -69,6 +80,7 @@ namespace digiseiWindowsService
             System.IO.File.Create(AppDomain.CurrentDomain.BaseDirectory + "OnStop.txt");
             eventLog1.WriteEntry("In OnStop.");
         }
+
         protected override void OnContinue()
         {
             eventLog1.WriteEntry("In OnContinue.");
